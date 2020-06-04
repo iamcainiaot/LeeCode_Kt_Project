@@ -41,9 +41,9 @@ public class MorseCodeWords唯一摩尔斯密码词 {
 
     /**
      * 思路：1、将该单词的每一个字母取出来，将其减去97，获取对应的数字，eg：a = 97
-     *       2、根据该数字，去摩斯电码的数组中将该数字为索引获取对应的摩斯电码
+     * 2、根据该数字，去摩斯电码的数组中将该数字为索引获取对应的摩斯电码
      */
-    public static int uniqueMorseRepresentations(String[] words) {
+    static int uniqueMorseRepresentations(String[] words) {
         String[] morse = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--",
                 "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."};
         int baseIndex = 97;
