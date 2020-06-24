@@ -1,7 +1,5 @@
 package leetcode;
 
-import org.junit.Test;
-
 public class searchInsertËÑË÷²åÈëÎ»ÖÃ {
 
     public static void main(String[] args) {

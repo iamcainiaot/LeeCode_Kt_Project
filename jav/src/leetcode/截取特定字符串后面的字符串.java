@@ -1,7 +1,5 @@
 package leetcode;
 
-import org.junit.Test;
-
 public class 截取特定字符串后面的字符串 {
     public static void main(String[] args) {
         subStringggg();
